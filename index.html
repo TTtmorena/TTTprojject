@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thinking Trade Tech — AI Agent Skills for Bankr</title>
+  <meta name="description" content="Thinking Trade Tech (TTT) builds advanced AI agent skills for the Bankr ecosystem on Base & Robinhood Chain. Analytics, Trading Signals, and more.">
+  <style>
+    :root {
+      --bg: #09090b;
+      --card: #111113;
+      --border: #27272a;
+      --text: #fafafa;
+      --muted: #a1a1aa;
+      --accent: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Header */
+    header {
+      padding: 28px 0 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-img {
+      height: 42px;
+      width: auto;
+    }
+
+    .nav a {
+      color: var(--muted);
+      text-decoration: none;
+      margin-left: 22px;
+      font-size: 15px;
+      transition: color 0.2s;
+    }
+
+    .nav a:hover {
+      color: var(--text);
+    }
+
+    /* Hero */
+    .hero {
+      padding: 70px 0 50px;
+      text-align: center;
+    }
+
+    .hero-logo {
+      width: 160px;
+      max-width: 70%;
+      height: auto;
+      margin: 0 auto 28px;
+      display: block;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      font-weight: 800;
+      letter-spacing: -1.2px;
+      margin-bottom: 14px;
+      line-height: 1.15;
+    }
+
+    .hero .subtitle {
+      font-size: 18px;
+      color: var(--muted);
+      max-width: 560px;
+      margin: 0 auto 28px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 13px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #000;
+      padding: 13px 28px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+      transition: all 0.2s;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 20px rgba(255,255,255,0.12);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border);
+      margin-left: 12px;
+    }
+
+    .btn-secondary:hover {
+      background: var(--card);
+      box-shadow: none;
+    }
+
+    /* Sections */
+    section {
+      padding: 50px 0;
+    }
+
+    h2 {
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      letter-spacing: -0.5px;
+    }
+
+    .section-desc {
+      color: var(--muted);
+      margin-bottom: 32px;
+      font-size: 16px;
+    }
+
+    /* Skills Grid */
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .skill-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      transition: border-color 0.2s;
+    }
+
+    .skill-card:hover {
+      border-color: #3f3f46;
+    }
+
+    .skill-card h3 {
+      font-size: 20px;
+      margin-bottom: 8px;
+      font-weight: 700;
+    }
+
+    .skill-card p {
+      font-size: 15px;
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+
+    .skill-card .tag {
+      display: inline-block;
+      font-size: 12px;
+      background: #1a1a1e;
+      color: #a1a1aa;
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-bottom: 18px;
+    }
+
+    .skill-links a {
+      display: inline-block;
+      margin-right: 12px;
+      font-size: 14px;
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    .skill-links a:hover {
+      border-bottom-color: var(--text);
+    }
+
+    /* CTA */
+    .cta {
+      text-align: center;
+      padding: 70px 0;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      margin: 30px 0;
+    }
+
+    /* Footer */
+    footer {
+      padding: 40px 0 50px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    footer a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-links {
+      margin-bottom: 14px;
+    }
+
+    .footer-links a {
+      margin: 0 12px;
+    }
+
+    @media (max-width: 640px) {
+      .hero h1 {
+        font-size: 32px;
+      }
+      .hero .subtitle {
+        font-size: 16px;
+      }
+      .btn-secondary {
+        margin-left: 0;
+        margin-top: 12px;
+        display: inline-block;
+      }
+      header {
+        flex-direction: column;
+        gap: 14px;
+      }
+      .nav a {
+        margin-left: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <img src="https://iili.io/CsVfNob.jpg" alt="TTT Logo" class="logo-img">
+      <nav class="nav">
+        <a href="https://github.com/TTtmorena" target="_blank">GitHub</a>
+        <a href="https://x.com/TTTprojject" target="_blank">Twitter</a>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <img src="https://iili.io/CsVfNob.jpg" alt="Thinking Trade Tech" class="hero-logo">
+      <div class="badge">Bankr Ecosystem · Base & Robinhood Chain</div>
+      <h1>Thinking Trade Tech</h1>
+      <p class="subtitle">
+        Building advanced AI agent skills focused on analytics,<br>
+        trading intelligence, and agent performance.
+      </p>
+      <div>
+        <a href="https://x.com/TTTprojject" class="btn" target="_blank">Follow Updates</a>
+        <a href="https://github.com/TTtmorena" class="btn btn-secondary" target="_blank">View All Skills</a>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section>
+      <h2>Our Skills</h2>
+      <p class="section-desc">Specialized tools built for Bankr agents.</p>
+
+      <div class="skills">
+        <!-- TTTracker -->
+        <div class="skill-card">
+          <div class="tag">Analytics</div>
+          <h3>TTTracker</h3>
+          <p>Real-time agent analytics dashboard. Track fees, market cap, volume, rankings, and historical earnings.</p>
+          <div class="skill-links">
+            <a href="https://github.com/TTtmorena/TTTracker" target="_blank">GitHub →</a>
+            <a href="https://tttmorena.github.io/TTTracker/" target="_blank">Landing Page →</a>
+          </div>
+        </div>
+
+        <!-- TTTsignal -->
+        <div class="skill-card">
+          <div class="tag">Trading Intelligence</div>
+          <h3>TTTsignal</h3>
+          <p>Advanced trading signals with BUY / HOLD / SELL, momentum analysis, volume spikes, and risk assessment.</p>
+          <div class="skill-links">
+            <a href="https://github.com/TTtmorena/TTTsignal" target="_blank">GitHub →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <div class="cta">
+      <h2>More skills are coming</h2>
+      <p class="section-desc" style="margin-bottom: 24px;">
+        We are building a full suite of data-driven AI skills for the Bankr community.
+      </p>
+      <a href="https://x.com/TTTprojject" class="btn" target="_blank">Follow @TTTprojject</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-links">
+        <a href="https://github.com/TTtmorena" target="_blank">GitHub</a>
+        <a href="https://x.com/TTTprojject" target="_blank">@TTTprojject</a>
+        <a href="https://x.com/TTtmorena" target="_blank">@TTtmorena</a>
+      </div>
+      <p>Built by thania morena · Thinking Trade Tech</p>
+      <p style="margin-top: 6px; font-size: 13px;">Powered by data. Driven by intelligence.</p>
+    </footer>
+  </div>
+</body>
+</html>
