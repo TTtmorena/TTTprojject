@@ -28,6 +28,7 @@
 | **TTTracker** | Real-time Agent Analytics Dashboard — Fees, Market Cap, Volume, Holders, Rankings, Portfolio & Historical Earnings | [GitHub](https://github.com/TTtmorena/TTTracker) · [Landing](https://tttmorena.github.io/TTTracker/) |
 | **TTTsignal** | Advanced Trading Signals & Market Intelligence — BUY / HOLD / SELL, Momentum Analysis, Volume Spikes, Risk Assessment | [GitHub](https://github.com/TTtmorena/TTTsignal) · [Landing](https://tttmorena.github.io/TTTsignal/) |
 | **TTTalert** | Smart Alerts & Notification Intelligence — Fee Claim Alerts, Volume Spike Detection, Momentum Shifts, Custom Thresholds, Risk Warnings | [GitHub](https://github.com/TTtmorena/TTTalert) · [Landing](https://tttmorena.github.io/TTTalert/) |
+| **TTTfolio** | Dual-Chain Portfolio & Performance Manager — All tokens, fees, allocation, ranking & insights across Base + Robinhood Chain | [GitHub](https://github.com/TTtmorena/TTTfolio) · [Landing](https://tttmorena.github.io/TTTfolio/) |
 
 ---
 
@@ -39,6 +40,7 @@ Thinking Trade Tech builds specialized, data-driven AI agent skills exclusively 
 - Analytics & Performance Tracking
 - Trading Intelligence
 - Smart Alerts & Notifications
+- Portfolio Management
 - Agent Decision Support
 
 Every skill is designed to be precise, actionable, and powered by official Bankr APIs combined with real-time market data.
@@ -63,6 +65,10 @@ install the skill at https://github.com/TTtmorena/TTTsignal
 install the skill at https://github.com/TTtmorena/TTTalert
 ```
 
+```bash
+install the skill at https://github.com/TTtmorena/TTTfolio
+```
+
 The skill activates automatically after installation.
 
 ---
@@ -72,7 +78,7 @@ The skill activates automatically after installation.
 **thania morena**  
 [@TTtmorena](https://x.com/TTtmorena) · [@TTTprojject](https://x.com/TTTprojject)
 
-Building high-precision AI agent skills focused on analytics, trading intelligence, and agent performance.
+Building high-precision AI agent skills focused on analytics, trading intelligence, portfolio management, and agent performance.
 
 ---
 
