@@ -8,9 +8,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Bankr-Skills-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Chain-Base%20%26%20Robinhood-green?style=flat-square" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" />
+  <img src="https://img.shields.io/badge/Skills-7-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Bankr-Compatible-00E5FF?style=flat-square" />
+  <img src="https://img.shields.io/badge/Chains-Base%20%7C%20Robinhood-black?style=flat-square" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" />
 </p>
 
 ---
@@ -21,27 +22,32 @@
 
 ---
 
-## Current Skills
+## Current Skills (7)
 
 | Skill | Description | Links |
 |-------|-------------|-------|
-| **TTTracker** | Real-time Agent Analytics Dashboard — Fees, Market Cap, Volume, Holders, Rankings, Portfolio & Historical Earnings | [GitHub](https://github.com/TTtmorena/TTTracker) · [Landing](https://tttmorena.github.io/TTTracker/) |
-| **TTTsignal** | Advanced Trading Signals & Market Intelligence — BUY / HOLD / SELL, Momentum Analysis, Volume Spikes, Risk Assessment | [GitHub](https://github.com/TTtmorena/TTTsignal) · [Landing](https://tttmorena.github.io/TTTsignal/) |
-| **TTTalert** | Smart Alerts & Notification Intelligence — Fee Claim Alerts, Volume Spike Detection, Momentum Shifts, Custom Thresholds, Risk Warnings | [GitHub](https://github.com/TTtmorena/TTTalert) · [Landing](https://tttmorena.github.io/TTTalert/) |
-| **TTTfolio** | Dual-Chain Portfolio & Performance Manager — All tokens, fees, allocation, ranking & insights across Base + Robinhood Chain | [GitHub](https://github.com/TTtmorena/TTTfolio) · [Landing](https://tttmorena.github.io/TTTfolio/) |
+| **TTTracker** | Real-time Agent Analytics Dashboard — Fees, Market Cap, Volume, Holders, Rankings & Historical Earnings | [GitHub](https://github.com/TTtmorena/TTTracker) · [Landing](https://tttmorena.github.io/TTTracker/) |
+| **TTTsignal** | Advanced Trading Signals & Market Intelligence — BUY / HOLD / SELL, Momentum, Volume Spikes | [GitHub](https://github.com/TTtmorena/TTTsignal) · [Landing](https://tttmorena.github.io/TTTsignal/) |
+| **TTTalert** | Smart Alerts & Notification Intelligence — Fee Claims, Volume Spikes, Momentum Shifts, Risk Warnings | [GitHub](https://github.com/TTtmorena/TTTalert) · [Landing](https://tttmorena.github.io/TTTalert/) |
+| **TTTfolio** | Dual-Chain Portfolio & Performance Manager — Track tokens, fees, allocation & ranking across Base + Robinhood | [GitHub](https://github.com/TTtmorena/TTTfolio) · [Landing](https://tttmorena.github.io/TTTfolio/) |
+| **TTTrisk** | Advanced Risk Management & Portfolio Protection — Risk Score (0-100), Liquidity, Volatility, Position Sizing | [GitHub](https://github.com/TTtmorena/TTTrisk) · [Landing](https://tttmorena.github.io/TTTrisk/) |
+| **TTTstrat** | Advanced Strategy Builder & Backtester — Rule-based strategies, hybrid backtesting, ready-to-execute commands | [GitHub](https://github.com/TTtmorena/TTTstrat) · [Landing](https://tttmorena.github.io/TTTstrat/) |
+| **TTTpulse** | Real-time Sentiment & Social Intelligence — Sentiment Score (0-100), Narrative Strength, Holder Momentum | [GitHub](https://github.com/TTtmorena/TTTpulse) · [Landing](https://tttmorena.github.io/TTTpulse/) |
 
 ---
 
 ## About
 
-Thinking Trade Tech builds specialized, data-driven AI agent skills exclusively for the **Bankr** ecosystem on **Base** and **Robinhood Chain**.
+**Thinking Trade Tech** builds specialized, data-driven AI agent skills exclusively for the **Bankr** ecosystem on **Base** and **Robinhood Chain**.
 
 **Core focus areas:**
 - Analytics & Performance Tracking
-- Trading Intelligence
+- Trading Intelligence & Signals
 - Smart Alerts & Notifications
 - Portfolio Management
-- Agent Decision Support
+- Risk Management & Protection
+- Strategy Building & Backtesting
+- Sentiment & Narrative Intelligence
 
 Every skill is designed to be precise, actionable, and powered by official Bankr APIs combined with real-time market data.
 
@@ -69,6 +75,18 @@ install the skill at https://github.com/TTtmorena/TTTalert
 install the skill at https://github.com/TTtmorena/TTTfolio
 ```
 
+```bash
+install the skill at https://github.com/TTtmorena/TTTrisk
+```
+
+```bash
+install the skill at https://github.com/TTtmorena/TTTstrat
+```
+
+```bash
+install the skill at https://github.com/TTtmorena/TTTpulse
+```
+
 The skill activates automatically after installation.
 
 ---
@@ -78,7 +96,7 @@ The skill activates automatically after installation.
 **thania morena**  
 [@TTtmorena](https://x.com/TTtmorena) · [@TTTprojject](https://x.com/TTTprojject)
 
-Building high-precision AI agent skills focused on analytics, trading intelligence, portfolio management, and agent performance.
+Building high-precision, data-driven AI agent skills for the Bankr ecosystem on Base & Robinhood Chain.
 
 ---
 
@@ -86,3 +104,5 @@ Building high-precision AI agent skills focused on analytics, trading intelligen
 
 MIT License
 ```
+
+---
