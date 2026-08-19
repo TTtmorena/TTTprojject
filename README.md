@@ -6,26 +6,26 @@
 
 <p align="center">
   <strong>Advanced AI Agent Skills for Bankr</strong><br>
-  on Base & Robinhood Chain
+  Built for Base & Robinhood Chain
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Bankr-Skills-0A66C2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Base-0052FF?style=for-the-badge&logo=ethereum&logoColor=white" />
   <img src="https://img.shields.io/badge/Robinhood-CCFF00?style=for-the-badge&logoColor=black" />
-  <img src="https://img.shields.io/badge/Skills-7-8B5CF6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/7_Skills-8B5CF6?style=for-the-badge" />
 </p>
 
 ---
 
 ## Live Website
-**https://tttmorena.github.io/TTTprojject/**
+**[tttmorena.github.io/TTTprojject](https://tttmorena.github.io/TTTprojject/)**
 
 ---
 
 ## Quick Install
 
-### Install the entire suite (Recommended)
+### Install the full suite (Recommended)
 ```bash
 install all skills from TTtmorena/TTT-skills
 ```
@@ -43,7 +43,7 @@ install the skill at TTtmorena/TTTpulse
 
 ---
 
-## Current Skills
+## Skill Suite
 
 | Skill | Description | Links |
 |-------|-------------|-------|
@@ -58,13 +58,28 @@ install the skill at TTtmorena/TTTpulse
 ---
 
 ## Meta Repository
-All skills in one place: **[TTtmorena/TTT-skills](https://github.com/TTtmorena/TTT-skills)**
+All skills in one place → **[TTtmorena/TTT-skills](https://github.com/TTtmorena/TTT-skills)**
+
+---
+
+## About
+
+Thinking Trade Tech builds high-precision, data-driven AI agent skills exclusively for the Bankr ecosystem.
+
+Every skill is designed to be actionable, transparent, and deeply integrated with official Bankr APIs.
+
+> **Powered by data. Driven by intelligence.**
 
 ---
 
 ## Builder
+
 **thania morena**  
 [@TTtmorena](https://x.com/TTtmorena) · [@TTTprojject](https://x.com/TTTprojject)
 
-> Powered by data. Driven by intelligence.
+---
+
+## License
+
+MIT License
 ```
